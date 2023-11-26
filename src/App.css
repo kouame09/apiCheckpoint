@@ -1,0 +1,53 @@
+/* App.css */
+
+/* Style général de l'application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style de la liste des utilisateurs */
+.user-list {
+  margin-top: 20px;
+}
+
+.user-list h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.user-list li:last-child {
+  border-bottom: none;
+}
+
+.user-list li strong {
+  font-weight: bold;
+}
+
+/* Style de survol sur la liste des utilisateurs */
+.user-list li:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
